@@ -1,0 +1,208 @@
+0000.013 () Opened log file at time: Sun, 21 Apr 2024 09:08:31 +0000 on http://localhost/contabilidade
+0000.013 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.2 WP: 6.4.2 PHP: 8.0.28 (apache2handler, Windows NT LAPTOP-GE8GPIKK 10.0 build 22631 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=33554432) WPLANG: pt_PT Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 44.8M | 46M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.013 () Free space on disk containing Updraft's temporary directory: 106446.1 MB
+0000.047 () Restore setup, now closing connection and starting restore over AJAX.
+0000.014 () Opened log file at time: Sun, 21 Apr 2024 09:08:32 +0000 on http://localhost/contabilidade
+0000.015 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.2 WP: 6.4.2 PHP: 8.0.28 (apache2handler, Windows NT LAPTOP-GE8GPIKK 10.0 build 22631 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=33554432) WPLANG: pt_PT Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 42.7M | 46M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.015 () Free space on disk containing Updraft's temporary directory: 106446.1 MB
+0000.031 () Ensuring WP_Filesystem is setup for a restore
+0000.034 () WP_Filesystem is setup and ready for a restore
+0000.061 () Restore job started. Entities to restore: plugins, themes, uploads, mu-plugins, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wpbb_options","wpbb_users","wpbb_usermeta","wpbb_actionscheduler_actions","wpbb_actionscheduler_claims","wpbb_actionscheduler_groups","wpbb_actionscheduler_logs","wpbb_commentmeta","wpbb_comments","wpbb_links","wpbb_postmeta","wpbb_posts","wpbb_term_relationships","wpbb_term_taxonomy","wpbb_termmeta","wpbb_terms","wpbb_wpforms_tasks_meta"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.068 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\contabilidade\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.097 () Entity: db
+0000.097 () restore_backup(backup_file=backup_2024-04-15-1238_ContaSilva_a424a8b116bf-db.gz, type=db, info=a:0:{}, last_one=)
+0000.098 () Unpacking backup... (backup_2024-04-15-1238_ContaSilva_a424a8b116bf-db.gz, 0.5 Mb)
+0000.098 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\contabilidade\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.102 () Database successfully unpacked
+0000.104 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.104 () Using direct MySQL access; value of use_mysqli is: 1
+0000.105 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.176 () Max packet size: 32 MB
+0000.176 () Entering maintenance mode
+0000.176 () A activar o modo de manutenção&#8230;
+0000.209 () Backup created by: 1.24.2
+0000.209 () Backup of: http://contasilvadigital.epizy.com
+0000.239 () Content URL: http://contasilvadigital.epizy.com/wp-content
+0000.239 () Uploads URL: http://contasilvadigital.epizy.com/wp-content/uploads
+0000.239 () Old table prefix: wpbb_
+0000.239 () Old ABSPATH: /home/vol14_6/epizy.com/epiz_29797462/htdocs/
+0000.240 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.240 () Site information: multisite=0
+0000.240 () Site information: sql_mode=
+0000.240 () Skipped tables: wpstg0_actionscheduler_actions, wpstg0_actionscheduler_claims, wpstg0_actionscheduler_groups, wpstg0_actionscheduler_logs, wpstg0_commentmeta, wpstg0_comments, wpstg0_links, wpstg0_options, wpstg0_postmeta, wpstg0_posts, wpstg0_term_relationships, wpstg0_term_taxonomy, wpstg0_termmeta, wpstg0_terms, wpstg0_usermeta, wpstg0_users, wpstg0_wpforms_tasks_meta
+0000.243 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.244 () New table prefix: y6_
+0000.249 () Processing table (MyISAM): wpbb_options - will restore as: y6_options
+0000.340 () Atomic restore: dropping original table (wp_options)
+0000.354 () Atomic restore: renaming new table (y6_options) to final table name (wp_options)
+0000.358 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0000.523 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.523 () Options table fields changed OK
+0000.538 () Search and replacing table: wp_options: rows: 383
+0000.577 () Incomplete object detected in database: Elementor\Core\Logger\Items\PHP; Search and replace will be skipped for these entries
+0000.605 () Processing table (MyISAM): wpbb_users - will restore as: y6_users
+0000.620 () Atomic restore: dropping original table (wp_users)
+0000.628 () Atomic restore: renaming new table (y6_users) to final table name (wp_users)
+0000.645 () Search and replacing table: wp_users: rows: 1
+0000.646 () Processing table (MyISAM): wpbb_usermeta - will restore as: y6_usermeta
+0000.660 () Atomic restore: dropping original table (wp_usermeta)
+0000.668 () Atomic restore: renaming new table (y6_usermeta) to final table name (wp_usermeta)
+0000.674 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.677 () Usermeta table fields changed OK
+0000.685 () Search and replacing table: wp_usermeta: rows: 28
+0000.686 () Processing table (MyISAM): wpbb_actionscheduler_actions - will restore as: y6_actionscheduler_actions
+0000.704 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0000.704 () Atomic restore: renaming new table (y6_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0000.720 () Search and replacing table: wp_actionscheduler_actions: rows: 27
+0000.720 () Incomplete object detected in database: ActionScheduler_IntervalSchedule; Search and replace will be skipped for these entries
+0000.721 () Incomplete object detected in database: ActionScheduler_NullSchedule; Search and replace will be skipped for these entries
+0000.721 () Incomplete object detected in database: ActionScheduler_SimpleSchedule; Search and replace will be skipped for these entries
+0000.721 () Processing table (MyISAM): wpbb_actionscheduler_claims - will restore as: y6_actionscheduler_claims
+0000.769 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0000.769 () Atomic restore: renaming new table (y6_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0000.786 () Search and replacing table: wp_actionscheduler_claims: rows: 3924
+0000.829 () Processing table (MyISAM): wpbb_actionscheduler_groups - will restore as: y6_actionscheduler_groups
+0000.843 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0000.843 () Atomic restore: renaming new table (y6_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0000.858 () Search and replacing table: wp_actionscheduler_groups: rows: 2
+0000.859 () Processing table (MyISAM): wpbb_actionscheduler_logs - will restore as: y6_actionscheduler_logs
+0000.871 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0000.872 () Atomic restore: renaming new table (y6_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0000.888 () Search and replacing table: wp_actionscheduler_logs: rows: 67
+0000.889 () Processing table (MyISAM): wpbb_commentmeta - will restore as: y6_commentmeta
+0000.899 () Atomic restore: dropping original table (wp_commentmeta)
+0000.907 () Atomic restore: renaming new table (y6_commentmeta) to final table name (wp_commentmeta)
+0000.926 () Search and replacing table: wp_commentmeta: rows: 0
+0000.926 () Processing table (MyISAM): wpbb_comments - will restore as: y6_comments
+0000.939 () Atomic restore: dropping original table (wp_comments)
+0000.949 () Atomic restore: renaming new table (y6_comments) to final table name (wp_comments)
+0000.964 () Search and replacing table: wp_comments: rows: 1
+0000.965 () Processing table (MyISAM): wpbb_links - will restore as: y6_links
+0000.976 () Atomic restore: dropping original table (wp_links)
+0000.985 () Atomic restore: renaming new table (y6_links) to final table name (wp_links)
+0001.003 () Search and replacing table: wp_links: rows: 0
+0001.004 () Processing table (MyISAM): wpbb_postmeta - will restore as: y6_postmeta
+0001.465 () Atomic restore: dropping original table (wp_postmeta)
+0001.475 () Atomic restore: renaming new table (y6_postmeta) to final table name (wp_postmeta)
+0001.502 () Search and replacing table: wp_postmeta: rows: 284
+0001.915 () Processing table (MyISAM): wpbb_posts - will restore as: y6_posts
+0001.956 () Database queries processed: 50 in 1.85 seconds
+0002.019 () Atomic restore: dropping original table (wp_posts)
+0002.030 () Atomic restore: renaming new table (y6_posts) to final table name (wp_posts)
+0002.045 () Skipping search/replace on GUID column in posts table
+0002.046 () Search and replacing table: wp_posts: rows: 437
+0002.232 () Processing table (MyISAM): wpbb_term_relationships - will restore as: y6_term_relationships
+0002.246 () Atomic restore: dropping original table (wp_term_relationships)
+0002.255 () Atomic restore: renaming new table (y6_term_relationships) to final table name (wp_term_relationships)
+0002.260 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0002.260 () Processing table (MyISAM): wpbb_term_taxonomy - will restore as: y6_term_taxonomy
+0002.272 () Atomic restore: dropping original table (wp_term_taxonomy)
+0002.281 () Atomic restore: renaming new table (y6_term_taxonomy) to final table name (wp_term_taxonomy)
+0002.296 () Search and replacing table: wp_term_taxonomy: rows: 3
+0002.297 () Processing table (MyISAM): wpbb_termmeta - will restore as: y6_termmeta
+0002.307 () Atomic restore: dropping original table (wp_termmeta)
+0002.316 () Atomic restore: renaming new table (y6_termmeta) to final table name (wp_termmeta)
+0002.330 () Search and replacing table: wp_termmeta: rows: 0
+0002.330 () Processing table (MyISAM): wpbb_terms - will restore as: y6_terms
+0002.347 () Atomic restore: dropping original table (wp_terms)
+0002.356 () Atomic restore: renaming new table (y6_terms) to final table name (wp_terms)
+0002.371 () Search and replacing table: wp_terms: rows: 3
+0002.371 () Processing table (MyISAM): wpbb_wpforms_tasks_meta - will restore as: y6_wpforms_tasks_meta
+0002.383 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0002.385 () UpdraftVault: this site has not been connected - check your settings
+0003.742 () Unlocking database and leaving maintenance mode
+0003.743 () A desactivar o modo de manutenção&#8230;
+0003.745 () Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0003.746 () Atomic restore: renaming new table (y6_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0003.764 () Search and replacing table: wp_wpforms_tasks_meta: rows: 21
+0003.765 () Finished: lines processed: 71 in 3.66 seconds
+0003.766 () Cleaning up rubbish...
+0003.768 () Begin search and replace (updraftplus_restored_db)
+0003.768 () [Database-replace-site-url] Database: search and replace site URL
+0003.769 () Database search and replace: replace http://contasilvadigital.epizy.com in backup dump with http://localhost/contabilidade
+0003.769 () Database search and replace: replace http://www.contasilvadigital.epizy.com in backup dump with http://localhost/contabilidade
+0003.769 () Database search and replace: replace https://www.contasilvadigital.epizy.com in backup dump with http://localhost/contabilidade
+0003.769 () Database search and replace: replace https://contasilvadigital.epizy.com in backup dump with http://localhost/contabilidade
+0003.769 () Database search and replace: replace /home/vol14_6/epizy.com/epiz_29797462/htdocs in backup dump with C:\xampp\htdocs\contabilidade
+0003.770 () Search and replacing table: wp_actionscheduler_actions: already done
+0003.770 () Search and replacing table: wp_actionscheduler_claims: already done
+0003.771 () Search and replacing table: wp_actionscheduler_groups: already done
+0003.771 () Search and replacing table: wp_actionscheduler_logs: already done
+0003.771 () Search and replacing table: wp_commentmeta: already done
+0003.771 () Search and replacing table: wp_comments: already done
+0003.771 () Search and replacing table: wp_links: already done
+0003.771 () Search and replacing table: wp_options: already done
+0003.771 () Search and replacing table: wp_postmeta: already done
+0003.771 () Search and replacing table: wp_posts: already done
+0003.771 () Search and replacing table: wp_term_relationships: already done
+0003.771 () Search and replacing table: wp_term_taxonomy: already done
+0003.772 () Search and replacing table: wp_termmeta: already done
+0003.772 () Search and replacing table: wp_terms: already done
+0003.772 () Search and replacing table: wp_usermeta: already done
+0003.772 () Search and replacing table: wp_users: already done
+0003.772 () Search and replacing table: wp_wpforms_tasks_meta: already done
+0003.785 () Entity: mu-plugins
+0003.785 () restore_backup(backup_file=backup_2024-04-15-1238_ContaSilva_a424a8b116bf-mu-plugins.zip, type=mu-plugins, info=a:2:{s:4:"path";s:51:"C:\xampp\htdocs\contabilidade/wp-content/mu-plugins";s:11:"description";s:16:"Must-use plugins";}, last_one=)
+0003.785 () Unpacking backup... (backup_2024-04-15-1238_ContaSilva_a424a8b116bf-mu-plugins.zip, 0 MB)
+0003.788 () Unzipping backup_2024-04-15-1238_ContaSilva_a424a8b116bf-mu-plugins.zip to C:/xampp/htdocs/contabilidade/wp-content/upgrade/53437102/ using UpdraftPlus_ZipArchive, starting index 0
+0003.793 () Unzip progress: 2 out of 2 files (11.1 KB, mu-plugins/wp-staging-optimizer.php)
+0003.796 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.797 () Moving old data: can potentially use wp_filesystem method / -old
+0003.797 () Moving old data out of the way...
+0003.798 () Moving unpacked backup into place...
+0003.800 () Destination directory did not exist, but was successfully created (C:/xampp/htdocs/contabilidade/wp-content/mu-plugins/)
+0003.802 () Cleaning up rubbish...
+0003.804 () Entity: plugins
+0003.804 () restore_backup(backup_file=backup_2024-04-15-1238_ContaSilva_a424a8b116bf-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:48:"C:\xampp\htdocs\contabilidade/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0003.805 () Unpacking backup... (backup_2024-04-15-1238_ContaSilva_a424a8b116bf-plugins.zip, 35.3 MB)
+0003.807 () Unzipping backup_2024-04-15-1238_ContaSilva_a424a8b116bf-plugins.zip to C:/xampp/htdocs/contabilidade/wp-content/upgrade/d3944585/ using UpdraftPlus_ZipArchive, starting index 0
+0005.172 () Unzip progress: 2311 out of 9662 files (904 B, plugins/akismet/_inc/img/logo-a-2x.png)
+0006.588 () Unzip progress: 3312 out of 9662 files (46.3 MB, plugins/themeisle-companion/obfx_modules/social-sharing/css/admin.css)
+0007.891 () Unzip progress: 4313 out of 9662 files (61.8 MB, plugins/wpforms-lite/src/Helpers/Chain.php)
+0009.119 () Unzip progress: 5314 out of 9662 files (69 MB, plugins/w3-total-cache/vendor/aws/aws-sdk-php/src/Budgets/Exception/BudgetsException.php)
+0010.319 () Unzip progress: 6315 out of 9662 files (79.8 MB, plugins/w3-total-cache/vendor/aws/aws-sdk-php/src/data/healthlake/2017-07-01/api-2.json.php)
+0011.551 () Unzip progress: 7316 out of 9662 files (92.2 MB, plugins/w3-total-cache/Mobile_UserAgent.php)
+0012.753 () Unzip progress: 8317 out of 9662 files (100.3 MB, plugins/wp-staging/vendor_wpstg/monolog/monolog/src/Monolog/Processor/IntrospectionProcessor.php)
+0014.246 () Unzip progress: 9318 out of 9662 files (122.2 MB, plugins/updraftplus/vendor/phpseclib/phpseclib/phpseclib/Crypt/Blowfish.php)
+0014.672 () Unzip progress: 9662 out of 9662 files (125.8 MB, plugins/updraftplus/updraftplus.php)
+0014.685 () Moving old data: filesystem method / updraft_dir is potentially possible
+0014.686 () Moving old data: can potentially use wp_filesystem method / -old
+0014.686 () Moving old data out of the way...
+0014.949 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0014.958 () Moving unpacked backup into place...
+0017.326 () Top-level entities being moved: akismet, carousel-slider, elementor, hello.php, index.php, stylist, themeisle-companion, updraftplus, w3-total-cache, wp-staging, wpforms-lite
+0017.358 () Cleaning up rubbish...
+0017.360 () [W3 Total Cache] Disabled this plugin: %s: re-activate it manually when you are ready.
+0017.363 () Entity: themes
+0017.363 () restore_backup(backup_file=backup_2024-04-15-1238_ContaSilva_a424a8b116bf-themes.zip, type=themes, info=a:3:{s:4:"path";s:47:"C:\xampp\htdocs\contabilidade/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0017.365 () Unpacking backup... (backup_2024-04-15-1238_ContaSilva_a424a8b116bf-themes.zip, 20.4 MB)
+0017.366 () Unzipping backup_2024-04-15-1238_ContaSilva_a424a8b116bf-themes.zip to C:/xampp/htdocs/contabilidade/wp-content/upgrade/5904faf9/ using UpdraftPlus_ZipArchive, starting index 0
+0018.446 () Unzip progress: 1002 out of 1442 files (16.4 MB, themes/twentytwentyone/assets/sass/04-elements/blockquote.scss)
+0019.001 () Unzip progress: 1442 out of 1442 files (29.6 MB, themes/twentytwentyfour/style.css)
+0019.008 () Moving old data: filesystem method / updraft_dir is potentially possible
+0019.009 () Moving old data: can potentially use wp_filesystem method / -old
+0019.009 () Moving old data out of the way...
+0019.079 () Top-level entities being moved: index.php, twentytwentyfour, twentytwentythree, twentytwentytwo
+0019.086 () Moving unpacked backup into place...
+0019.383 () Top-level entities being moved: businessfocus, hestia, index.php, photofocus, twentynineteen, twentytwenty, twentytwentyfour, twentytwentyone, twentytwentythree, twentytwentytwo
+0019.399 () Cleaning up rubbish...
+0019.402 () Entity: uploads
+0019.402 () restore_backup(backup_file=backup_2024-04-15-1238_ContaSilva_a424a8b116bf-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:48:"C:\xampp\htdocs\contabilidade/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0019.402 () Unpacking backup... (backup_2024-04-15-1238_ContaSilva_a424a8b116bf-uploads.zip, 45.4 MB)
+0019.404 () Unzipping backup_2024-04-15-1238_ContaSilva_a424a8b116bf-uploads.zip to C:/xampp/htdocs/contabilidade/wp-content/upgrade/cd004a5b/ using UpdraftPlus_ZipArchive, starting index 0
+0019.793 () Unzip progress: 291 out of 291 files (46.8 MB, uploads/wp-staging/backups/web.config)
+0019.803 () Moving old data: filesystem method / updraft_dir is potentially possible
+0019.804 () Moving old data: can potentially use wp_filesystem method / -old
+0019.804 () Moving old data out of the way...
+0019.807 () Moving unpacked backup into place...
+0019.997 () Cleaning up rubbish...
+0020.002 () Entity: others
+0020.002 () restore_backup(backup_file=backup_2024-04-15-1238_ContaSilva_a424a8b116bf-others.zip, type=others, info=a:2:{s:4:"path";s:40:"C:\xampp\htdocs\contabilidade/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0020.004 () Unpacking backup... (backup_2024-04-15-1238_ContaSilva_a424a8b116bf-others.zip, 1 MB)
+0020.006 () Unzipping backup_2024-04-15-1238_ContaSilva_a424a8b116bf-others.zip to C:/xampp/htdocs/contabilidade/wp-content/upgrade/cab0e487/ using UpdraftPlus_ZipArchive, starting index 0
+0020.151 () Unzip progress: 109 out of 109 files (3.5 MB, w3tc-config/master.php)
+0020.155 () advanced-cache.php: Skipping cache file (does not already exist)
+0020.164 () Cleaning up rubbish...
+0020.444 () Elementor's CSS directory exists, and will be emptied (so that it will be automatically regenerated)
+0020.468 () Restore successful!
+0020.468 () Restore successful

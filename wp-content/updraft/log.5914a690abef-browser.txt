@@ -1,0 +1,163 @@
+0000.063 (R) [notice] Looking for db archive: file name: backup_2024-04-15-1238_ContaSilva_a424a8b116bf-db.gz
+0000.063 (R) [notice] Archive is expected to be size: 481 KB: OK
+0000.069 (R) [notice] Looking for mu-plugins archive: file name: backup_2024-04-15-1238_ContaSilva_a424a8b116bf-mu-plugins.zip
+0000.070 (R) [notice] Archive is expected to be size: 3.3 KB: OK
+0000.074 (R) [notice] Looking for plugins archive: file name: backup_2024-04-15-1238_ContaSilva_a424a8b116bf-plugins.zip
+0000.076 (R) [notice] Archive is expected to be size: 36186.1 KB: OK
+0000.079 (R) [notice] Looking for themes archive: file name: backup_2024-04-15-1238_ContaSilva_a424a8b116bf-themes.zip
+0000.080 (R) [notice] Archive is expected to be size: 20879.3 KB: OK
+0000.085 (R) [notice] Looking for uploads archive: file name: backup_2024-04-15-1238_ContaSilva_a424a8b116bf-uploads.zip
+0000.086 (R) [notice] Archive is expected to be size: 46532.3 KB: OK
+0000.089 (R) [notice] Looking for others archive: file name: backup_2024-04-15-1238_ContaSilva_a424a8b116bf-others.zip
+0000.090 (R) [notice] Archive is expected to be size: 1015.4 KB: OK
+0000.098 (R) [notice] Unpacking backup... (backup_2024-04-15-1238_ContaSilva_a424a8b116bf-db.gz, 0.5 Mb)
+0000.104 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.176 (R) [notice] A activar o modo de manutenção&#8230;
+0000.209 (R) [notice] Backup created by: 1.24.2
+0000.209 (R) [notice] Backup of: http://contasilvadigital.epizy.com
+0000.239 (R) [notice] Content URL: http://contasilvadigital.epizy.com/wp-content
+0000.239 (R) [notice] Uploads URL: http://contasilvadigital.epizy.com/wp-content/uploads
+0000.239 (R) [notice] Old table prefix: wpbb_
+0000.239 (R) [notice] Old ABSPATH: /home/vol14_6/epizy.com/epiz_29797462/htdocs/
+0000.240 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.240 (R) [notice] Site information: multisite = 0
+0000.240 (R) [notice] Site information: sql_mode = 
+0000.240 (R) [notice] Skipped tables: wpstg0_actionscheduler_actions, wpstg0_actionscheduler_claims, wpstg0_actionscheduler_groups, wpstg0_actionscheduler_logs, wpstg0_commentmeta, wpstg0_comments, wpstg0_links, wpstg0_options, wpstg0_postmeta, wpstg0_posts, wpstg0_term_relationships, wpstg0_term_taxonomy, wpstg0_termmeta, wpstg0_terms, wpstg0_usermeta, wpstg0_users, wpstg0_wpforms_tasks_meta
+0000.244 (R) [notice] New table prefix: y6_
+0000.249 (R) [notice] Processing table (MyISAM):  wpbb_options - will restore as: y6_options
+0000.341 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.354 (R) [notice] Atomic restore: renaming new table (y6_options) to final table name (wp_options)
+0000.524 (R) [notice] Table prefix has changed: changing option table field(s) accordingly: OK
+0000.538 (R) [notice] Search and replacing table: wp_options: rows: 383
+0000.605 (R) [notice] Processing table (MyISAM):  wpbb_users - will restore as: y6_users
+0000.620 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.629 (R) [notice] Atomic restore: renaming new table (y6_users) to final table name (wp_users)
+0000.644 (R) [notice] Search and replacing table: wp_users: rows: 1
+0000.646 (R) [notice] Processing table (MyISAM):  wpbb_usermeta - will restore as: y6_usermeta
+0000.660 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.668 (R) [notice] Atomic restore: renaming new table (y6_usermeta) to final table name (wp_usermeta)
+0000.677 (R) [notice] Table prefix has changed: changing usermeta table field(s) accordingly: OK
+0000.685 (R) [notice] Search and replacing table: wp_usermeta: rows: 28
+0000.686 (R) [notice] Processing table (MyISAM):  wpbb_actionscheduler_actions - will restore as: y6_actionscheduler_actions
+0000.704 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_actions)
+0000.705 (R) [notice] Atomic restore: renaming new table (y6_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0000.720 (R) [notice] Search and replacing table: wp_actionscheduler_actions: rows: 27
+0000.721 (R) [notice] Processing table (MyISAM):  wpbb_actionscheduler_claims - will restore as: y6_actionscheduler_claims
+0000.769 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_claims)
+0000.769 (R) [notice] Atomic restore: renaming new table (y6_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0000.786 (R) [notice] Search and replacing table: wp_actionscheduler_claims: rows: 3924
+0000.829 (R) [notice] Processing table (MyISAM):  wpbb_actionscheduler_groups - will restore as: y6_actionscheduler_groups
+0000.843 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_groups)
+0000.843 (R) [notice] Atomic restore: renaming new table (y6_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0000.858 (R) [notice] Search and replacing table: wp_actionscheduler_groups: rows: 2
+0000.859 (R) [notice] Processing table (MyISAM):  wpbb_actionscheduler_logs - will restore as: y6_actionscheduler_logs
+0000.871 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_logs)
+0000.872 (R) [notice] Atomic restore: renaming new table (y6_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0000.887 (R) [notice] Search and replacing table: wp_actionscheduler_logs: rows: 67
+0000.889 (R) [notice] Processing table (MyISAM):  wpbb_commentmeta - will restore as: y6_commentmeta
+0000.899 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.907 (R) [notice] Atomic restore: renaming new table (y6_commentmeta) to final table name (wp_commentmeta)
+0000.925 (R) [notice] Search and replacing table: wp_commentmeta: rows: 0
+0000.926 (R) [notice] Processing table (MyISAM):  wpbb_comments - will restore as: y6_comments
+0000.940 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.949 (R) [notice] Atomic restore: renaming new table (y6_comments) to final table name (wp_comments)
+0000.964 (R) [notice] Search and replacing table: wp_comments: rows: 1
+0000.965 (R) [notice] Processing table (MyISAM):  wpbb_links - will restore as: y6_links
+0000.977 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.985 (R) [notice] Atomic restore: renaming new table (y6_links) to final table name (wp_links)
+0001.003 (R) [notice] Search and replacing table: wp_links: rows: 0
+0001.004 (R) [notice] Processing table (MyISAM):  wpbb_postmeta - will restore as: y6_postmeta
+0001.465 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0001.475 (R) [notice] Atomic restore: renaming new table (y6_postmeta) to final table name (wp_postmeta)
+0001.502 (R) [notice] Search and replacing table: wp_postmeta: rows: 284
+0001.915 (R) [notice] Processing table (MyISAM):  wpbb_posts - will restore as: y6_posts
+0001.956 (R) [notice] Database queries processed: 50 in 1.85 seconds
+0002.019 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0002.031 (R) [notice] Atomic restore: renaming new table (y6_posts) to final table name (wp_posts)
+0002.046 (R) [notice] Search and replacing table: wp_posts: rows: 437
+0002.232 (R) [notice] Processing table (MyISAM):  wpbb_term_relationships - will restore as: y6_term_relationships
+0002.246 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0002.256 (R) [notice] Atomic restore: renaming new table (y6_term_relationships) to final table name (wp_term_relationships)
+0002.260 (R) [notice] Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0002.260 (R) [notice] Processing table (MyISAM):  wpbb_term_taxonomy - will restore as: y6_term_taxonomy
+0002.272 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0002.281 (R) [notice] Atomic restore: renaming new table (y6_term_taxonomy) to final table name (wp_term_taxonomy)
+0002.296 (R) [notice] Search and replacing table: wp_term_taxonomy: rows: 3
+0002.297 (R) [notice] Processing table (MyISAM):  wpbb_termmeta - will restore as: y6_termmeta
+0002.307 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0002.316 (R) [notice] Atomic restore: renaming new table (y6_termmeta) to final table name (wp_termmeta)
+0002.330 (R) [notice] Search and replacing table: wp_termmeta: rows: 0
+0002.330 (R) [notice] Processing table (MyISAM):  wpbb_terms - will restore as: y6_terms
+0002.347 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0002.356 (R) [notice] Atomic restore: renaming new table (y6_terms) to final table name (wp_terms)
+0002.370 (R) [notice] Search and replacing table: wp_terms: rows: 3
+0002.371 (R) [notice] Processing table (MyISAM):  wpbb_wpforms_tasks_meta - will restore as: y6_wpforms_tasks_meta
+0003.743 (R) [notice] A desactivar o modo de manutenção&#8230;
+0003.745 (R) [notice] Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0003.746 (R) [notice] Atomic restore: renaming new table (y6_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0003.764 (R) [notice] Search and replacing table: wp_wpforms_tasks_meta: rows: 21
+0003.765 (R) [notice] Finished: lines processed: 71 in 3.66 seconds
+0003.767 (R) [notice] Cleaning up rubbish...
+0003.769 (R) [notice] Database search and replace: replace http://contasilvadigital.epizy.com in backup dump with http://localhost/contabilidade
+0003.769 (R) [notice] Database search and replace: replace http://www.contasilvadigital.epizy.com in backup dump with http://localhost/contabilidade
+0003.769 (R) [notice] Database search and replace: replace https://www.contasilvadigital.epizy.com in backup dump with http://localhost/contabilidade
+0003.769 (R) [notice] Database search and replace: replace https://contasilvadigital.epizy.com in backup dump with http://localhost/contabilidade
+0003.769 (R) [notice] Database search and replace: replace /home/vol14_6/epizy.com/epiz_29797462/htdocs in backup dump with C:\xampp\htdocs\contabilidade
+0003.770 (R) [notice] Search and replacing table: wp_actionscheduler_actions: already done
+0003.770 (R) [notice] Search and replacing table: wp_actionscheduler_claims: already done
+0003.770 (R) [notice] Search and replacing table: wp_actionscheduler_groups: already done
+0003.771 (R) [notice] Search and replacing table: wp_actionscheduler_logs: already done
+0003.771 (R) [notice] Search and replacing table: wp_commentmeta: already done
+0003.771 (R) [notice] Search and replacing table: wp_comments: already done
+0003.771 (R) [notice] Search and replacing table: wp_links: already done
+0003.771 (R) [notice] Search and replacing table: wp_options: already done
+0003.771 (R) [notice] Search and replacing table: wp_postmeta: already done
+0003.771 (R) [notice] Search and replacing table: wp_posts: already done
+0003.771 (R) [notice] Search and replacing table: wp_term_relationships: already done
+0003.771 (R) [notice] Search and replacing table: wp_term_taxonomy: already done
+0003.772 (R) [notice] Search and replacing table: wp_termmeta: already done
+0003.772 (R) [notice] Search and replacing table: wp_terms: already done
+0003.772 (R) [notice] Search and replacing table: wp_usermeta: already done
+0003.772 (R) [notice] Search and replacing table: wp_users: already done
+0003.772 (R) [notice] Search and replacing table: wp_wpforms_tasks_meta: already done
+0003.772 (R) [notice] Tables examined: 16
+0003.772 (R) [notice] Rows examined: 5181
+0003.772 (R) [notice] Changes made: 617
+0003.772 (R) [notice] SQL update commands run: 617
+0003.773 (R) [notice] Errors: 0
+0003.773 (R) [notice] Time taken (seconds): 0.892
+0003.785 (R) [notice] Unpacking backup... (backup_2024-04-15-1238_ContaSilva_a424a8b116bf-mu-plugins.zip, 0 MB)
+0003.793 (R) [notice] Unzip progress: 2 out of 2 files (11.1 KB, mu-plugins/wp-staging-optimizer.php)
+0003.797 (R) [notice] Moving old data out of the way...
+0003.798 (R) [notice] Moving unpacked backup into place...
+0003.802 (R) [notice] Cleaning up rubbish...
+0003.805 (R) [notice] Unpacking backup... (backup_2024-04-15-1238_ContaSilva_a424a8b116bf-plugins.zip, 35.3 MB)
+0005.172 (R) [notice] Unzip progress: 2311 out of 9662 files (904 B, plugins/akismet/_inc/img/logo-a-2x.png)
+0006.588 (R) [notice] Unzip progress: 3312 out of 9662 files (46.3 MB, plugins/themeisle-companion/obfx_modules/social-sharing/css/admin.css)
+0007.890 (R) [notice] Unzip progress: 4313 out of 9662 files (61.8 MB, plugins/wpforms-lite/src/Helpers/Chain.php)
+0009.118 (R) [notice] Unzip progress: 5314 out of 9662 files (69 MB, plugins/w3-total-cache/vendor/aws/aws-sdk-php/src/Budgets/Exception/BudgetsException.php)
+0010.318 (R) [notice] Unzip progress: 6315 out of 9662 files (79.8 MB, plugins/w3-total-cache/vendor/aws/aws-sdk-php/src/data/healthlake/2017-07-01/api-2.json.php)
+0011.551 (R) [notice] Unzip progress: 7316 out of 9662 files (92.2 MB, plugins/w3-total-cache/Mobile_UserAgent.php)
+0012.752 (R) [notice] Unzip progress: 8317 out of 9662 files (100.3 MB, plugins/wp-staging/vendor_wpstg/monolog/monolog/src/Monolog/Processor/IntrospectionProcessor.php)
+0014.246 (R) [notice] Unzip progress: 9318 out of 9662 files (122.2 MB, plugins/updraftplus/vendor/phpseclib/phpseclib/phpseclib/Crypt/Blowfish.php)
+0014.672 (R) [notice] Unzip progress: 9662 out of 9662 files (125.8 MB, plugins/updraftplus/updraftplus.php)
+0014.686 (R) [notice] Moving old data out of the way...
+0014.958 (R) [notice] Moving unpacked backup into place...
+0017.358 (R) [notice] Cleaning up rubbish...
+0017.360 (R) [notice] Disabled this plugin: W3 Total Cache: re-activate it manually when you are ready.
+0017.365 (R) [notice] Unpacking backup... (backup_2024-04-15-1238_ContaSilva_a424a8b116bf-themes.zip, 20.4 MB)
+0018.446 (R) [notice] Unzip progress: 1002 out of 1442 files (16.4 MB, themes/twentytwentyone/assets/sass/04-elements/blockquote.scss)
+0019.001 (R) [notice] Unzip progress: 1442 out of 1442 files (29.6 MB, themes/twentytwentyfour/style.css)
+0019.009 (R) [notice] Moving old data out of the way...
+0019.086 (R) [notice] Moving unpacked backup into place...
+0019.399 (R) [notice] Cleaning up rubbish...
+0019.402 (R) [notice] Unpacking backup... (backup_2024-04-15-1238_ContaSilva_a424a8b116bf-uploads.zip, 45.4 MB)
+0019.792 (R) [notice] Unzip progress: 291 out of 291 files (46.8 MB, uploads/wp-staging/backups/web.config)
+0019.804 (R) [notice] Moving old data out of the way...
+0019.807 (R) [notice] Moving unpacked backup into place...
+0019.997 (R) [notice] Cleaning up rubbish...
+0020.004 (R) [notice] Unpacking backup... (backup_2024-04-15-1238_ContaSilva_a424a8b116bf-others.zip, 1 MB)
+0020.151 (R) [notice] Unzip progress: 109 out of 109 files (3.5 MB, w3tc-config/master.php)
+0020.155 (R) [notice] advanced-cache.php: Skipping cache file (does not already exist)
+0020.164 (R) [notice] Cleaning up rubbish...
+0020.468 (R) [notice] Restore successful!

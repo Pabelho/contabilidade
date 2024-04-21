@@ -1,0 +1,319 @@
+[INFO]-[2024/04/10 02:59:21] #################### Start Cloning Job ####################
+[info]-[2024/04/10 02:59:21] WP Staging Version: 3.4.3
+[info]-[2024/04/10 02:59:21] PHP Version: 8.2.16
+[info]-[2024/04/10 02:59:21] Server: Apache
+[info]-[2024/04/10 02:59:21] MySQL: 10.4.17
+[info]-[2024/04/10 02:59:21] WP Version: 6.4.2
+[info]-[2024/04/10 02:59:21] Host: General
+[info]-[2024/04/10 02:59:21] PHP Memory Limit: 536870912
+[info]-[2024/04/10 02:59:21] WP Memory Limit: 41943040
+[info]-[2024/04/10 02:59:21] PHP Max Execution Time: 60
+[INFO]-[2024/04/10 02:59:22] DB Copy: Creating table wpstg0_actionscheduler_actions
+[INFO]-[2024/04/10 02:59:22] DB Copy: Table wpbb_actionscheduler_actions contains 27 rows 
+[INFO]-[2024/04/10 02:59:22] DB Copy: Copy data from wpbb_actionscheduler_actions to wpstg0_actionscheduler_actions - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:23] DB Copy: Creating table wpstg0_actionscheduler_claims
+[INFO]-[2024/04/10 02:59:23] DB Copy: Table wpbb_actionscheduler_claims contains 3924 rows 
+[INFO]-[2024/04/10 02:59:23] DB Copy: Copy data from wpbb_actionscheduler_claims to wpstg0_actionscheduler_claims - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:23] DB Copy: Creating table wpstg0_actionscheduler_groups
+[INFO]-[2024/04/10 02:59:23] DB Copy: Table wpbb_actionscheduler_groups contains 2 rows 
+[INFO]-[2024/04/10 02:59:23] DB Copy: Copy data from wpbb_actionscheduler_groups to wpstg0_actionscheduler_groups - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:24] DB Copy: Creating table wpstg0_actionscheduler_logs
+[INFO]-[2024/04/10 02:59:24] DB Copy: Table wpbb_actionscheduler_logs contains 67 rows 
+[INFO]-[2024/04/10 02:59:24] DB Copy: Copy data from wpbb_actionscheduler_logs to wpstg0_actionscheduler_logs - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:25] DB Copy: Creating table wpstg0_commentmeta
+[INFO]-[2024/04/10 02:59:25] DB Copy: Table wpbb_commentmeta contains 0 rows 
+[INFO]-[2024/04/10 02:59:26] DB Copy: Creating table wpstg0_comments
+[INFO]-[2024/04/10 02:59:26] DB Copy: Table wpbb_comments contains 1 rows 
+[INFO]-[2024/04/10 02:59:26] DB Copy: Copy data from wpbb_comments to wpstg0_comments - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:26] DB Copy: Creating table wpstg0_links
+[INFO]-[2024/04/10 02:59:26] DB Copy: Table wpbb_links contains 0 rows 
+[INFO]-[2024/04/10 02:59:27] DB Copy: Creating table wpstg0_options
+[INFO]-[2024/04/10 02:59:27] DB Copy: Table wpbb_options contains 271 rows 
+[INFO]-[2024/04/10 02:59:27] DB Copy: Copy data from wpbb_options to wpstg0_options - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:28] DB Copy: Creating table wpstg0_postmeta
+[INFO]-[2024/04/10 02:59:28] DB Copy: Table wpbb_postmeta contains 2666 rows 
+[INFO]-[2024/04/10 02:59:28] DB Copy: Copy data from wpbb_postmeta to wpstg0_postmeta - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:28] DB Copy: Creating table wpstg0_posts
+[INFO]-[2024/04/10 02:59:28] DB Copy: Table wpbb_posts contains 436 rows 
+[INFO]-[2024/04/10 02:59:28] DB Copy: Copy data from wpbb_posts to wpstg0_posts - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:29] DB Copy: Creating table wpstg0_term_relationships
+[INFO]-[2024/04/10 02:59:29] DB Copy: Table wpbb_term_relationships contains 10 rows 
+[INFO]-[2024/04/10 02:59:29] DB Copy: Copy data from wpbb_term_relationships to wpstg0_term_relationships - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:30] DB Copy: Creating table wpstg0_term_taxonomy
+[INFO]-[2024/04/10 02:59:30] DB Copy: Table wpbb_term_taxonomy contains 3 rows 
+[INFO]-[2024/04/10 02:59:30] DB Copy: Copy data from wpbb_term_taxonomy to wpstg0_term_taxonomy - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:30] DB Copy: Creating table wpstg0_termmeta
+[INFO]-[2024/04/10 02:59:30] DB Copy: Table wpbb_termmeta contains 0 rows 
+[INFO]-[2024/04/10 02:59:31] DB Copy: Creating table wpstg0_terms
+[INFO]-[2024/04/10 02:59:31] DB Copy: Table wpbb_terms contains 3 rows 
+[INFO]-[2024/04/10 02:59:31] DB Copy: Copy data from wpbb_terms to wpstg0_terms - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:32] DB Copy: Creating table wpstg0_usermeta
+[INFO]-[2024/04/10 02:59:32] DB Copy: Table wpbb_usermeta contains 28 rows 
+[INFO]-[2024/04/10 02:59:32] DB Copy: Copy data from wpbb_usermeta to wpstg0_usermeta - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:33] DB Copy: Creating table wpstg0_users
+[INFO]-[2024/04/10 02:59:33] DB Copy: Table wpbb_users contains 1 rows 
+[INFO]-[2024/04/10 02:59:33] DB Copy: Copy data from wpbb_users to wpstg0_users - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:33] DB Copy: Creating table wpstg0_wpforms_tasks_meta
+[INFO]-[2024/04/10 02:59:33] DB Copy: Table wpbb_wpforms_tasks_meta contains 21 rows 
+[INFO]-[2024/04/10 02:59:33] DB Copy: Copy data from wpbb_wpforms_tasks_meta to wpstg0_wpforms_tasks_meta - 0 to 10000 records
+[INFO]-[2024/04/10 02:59:35] DB Search & Replace:  Table wpstg0_actionscheduler_actions 0 to 20000 records
+[INFO]-[2024/04/10 02:59:36] DB Search & Replace:  Table wpstg0_actionscheduler_claims 0 to 20000 records
+[INFO]-[2024/04/10 02:59:37] DB Search & Replace:  Table wpstg0_actionscheduler_groups 0 to 20000 records
+[INFO]-[2024/04/10 02:59:37] DB Search & Replace:  Table wpstg0_actionscheduler_logs 0 to 20000 records
+[INFO]-[2024/04/10 02:59:38] DB Search & Replace:  Table wpstg0_comments 0 to 20000 records
+[INFO]-[2024/04/10 02:59:40] DB Search & Replace:  Table wpstg0_options 0 to 20000 records
+[INFO]-[2024/04/10 02:59:40] DB Search & Replace:  Table wpstg0_postmeta 0 to 20000 records
+[INFO]-[2024/04/10 02:59:41] DB Search & Replace:  Table wpstg0_posts 0 to 20000 records
+[INFO]-[2024/04/10 02:59:42] DB Search & Replace:  Table wpstg0_term_relationships 0 to 20000 records
+[INFO]-[2024/04/10 02:59:43] DB Search & Replace:  Table wpstg0_term_taxonomy 0 to 20000 records
+[INFO]-[2024/04/10 02:59:44] DB Search & Replace:  Table wpstg0_terms 0 to 20000 records
+[INFO]-[2024/04/10 02:59:45] DB Search & Replace:  Table wpstg0_usermeta 0 to 20000 records
+[INFO]-[2024/04/10 02:59:46] DB Search & Replace:  Table wpstg0_users 0 to 20000 records
+[INFO]-[2024/04/10 02:59:46] DB Search & Replace:  Table wpstg0_wpforms_tasks_meta 0 to 20000 records
+[INFO]-[2024/04/10 02:59:48] Scanning / and its files
+[INFO]-[2024/04/10 02:59:49] Scanning wp-content/plugins/, its sub-directories and files
+[INFO]-[2024/04/10 02:59:53] Scanning wp-content/mu-plugins/, its sub-directories and files
+[INFO]-[2024/04/10 02:59:54] Scanning wp-content/themes/, its sub-directories and files
+[INFO]-[2024/04/10 02:59:55] Scanning wp-content/uploads/, its sub-directories and files
+[INFO]-[2024/04/10 02:59:56] Scanning wp-content/ for other directories and files
+[INFO]-[2024/04/10 02:59:57] Scanning wp-includes/, its sub-directories and files
+[INFO]-[2024/04/10 02:59:58] Scanning wp-admin/, its sub-directories and files
+[INFO]-[2024/04/10 03:00:00] Copying files...
+[INFO]-[2024/04/10 03:00:00] Total 50 files processed
+[INFO]-[2024/04/10 03:00:00] Total 100 files processed
+[INFO]-[2024/04/10 03:00:01] Total 150 files processed
+[INFO]-[2024/04/10 03:00:02] Total 200 files processed
+[INFO]-[2024/04/10 03:00:03] Total 250 files processed
+[INFO]-[2024/04/10 03:00:06] Total 300 files processed
+[INFO]-[2024/04/10 03:00:06] Total 350 files processed
+[INFO]-[2024/04/10 03:00:08] Total 400 files processed
+[INFO]-[2024/04/10 03:00:09] Total 450 files processed
+[INFO]-[2024/04/10 03:00:10] Total 500 files processed
+[INFO]-[2024/04/10 03:00:10] Total 550 files processed
+[INFO]-[2024/04/10 03:00:11] Total 600 files processed
+[INFO]-[2024/04/10 03:00:12] Total 650 files processed
+[INFO]-[2024/04/10 03:00:13] Total 700 files processed
+[INFO]-[2024/04/10 03:00:13] Total 750 files processed
+[INFO]-[2024/04/10 03:00:14] Total 800 files processed
+[INFO]-[2024/04/10 03:00:15] Total 850 files processed
+[INFO]-[2024/04/10 03:00:20] Total 900 files processed
+[INFO]-[2024/04/10 03:00:21] Total 950 files processed
+[INFO]-[2024/04/10 03:00:22] Total 1000 files processed
+[INFO]-[2024/04/10 03:00:23] Total 1050 files processed
+[INFO]-[2024/04/10 03:00:24] Total 1100 files processed
+[INFO]-[2024/04/10 03:00:24] Total 1150 files processed
+[INFO]-[2024/04/10 03:00:25] Total 1200 files processed
+[INFO]-[2024/04/10 03:00:26] Total 1250 files processed
+[INFO]-[2024/04/10 03:00:27] Total 1300 files processed
+[INFO]-[2024/04/10 03:00:28] Total 1350 files processed
+[INFO]-[2024/04/10 03:00:28] Total 1400 files processed
+[INFO]-[2024/04/10 03:00:29] Total 1450 files processed
+[INFO]-[2024/04/10 03:00:30] Total 1500 files processed
+[INFO]-[2024/04/10 03:00:31] Total 1550 files processed
+[INFO]-[2024/04/10 03:00:32] Total 1600 files processed
+[INFO]-[2024/04/10 03:00:32] Total 1650 files processed
+[INFO]-[2024/04/10 03:00:33] Total 1700 files processed
+[INFO]-[2024/04/10 03:00:34] Total 1750 files processed
+[INFO]-[2024/04/10 03:00:35] Total 1800 files processed
+[INFO]-[2024/04/10 03:00:35] Total 1850 files processed
+[INFO]-[2024/04/10 03:00:36] Total 1900 files processed
+[INFO]-[2024/04/10 03:00:37] Total 1950 files processed
+[INFO]-[2024/04/10 03:00:38] Total 2000 files processed
+[INFO]-[2024/04/10 03:00:38] Total 2050 files processed
+[INFO]-[2024/04/10 03:00:39] Total 2100 files processed
+[INFO]-[2024/04/10 03:00:40] Total 2150 files processed
+[INFO]-[2024/04/10 03:00:41] Total 2200 files processed
+[INFO]-[2024/04/10 03:00:41] Total 2250 files processed
+[INFO]-[2024/04/10 03:00:42] Total 2300 files processed
+[INFO]-[2024/04/10 03:00:43] Total 2350 files processed
+[INFO]-[2024/04/10 03:00:44] Total 2400 files processed
+[INFO]-[2024/04/10 03:00:45] Total 2450 files processed
+[INFO]-[2024/04/10 03:00:45] Total 2500 files processed
+[INFO]-[2024/04/10 03:00:46] Total 2550 files processed
+[INFO]-[2024/04/10 03:00:47] Total 2600 files processed
+[INFO]-[2024/04/10 03:00:48] Total 2650 files processed
+[INFO]-[2024/04/10 03:00:48] Total 2700 files processed
+[INFO]-[2024/04/10 03:00:49] Total 2750 files processed
+[INFO]-[2024/04/10 03:00:50] Total 2800 files processed
+[INFO]-[2024/04/10 03:00:51] Total 2850 files processed
+[INFO]-[2024/04/10 03:00:51] Total 2900 files processed
+[INFO]-[2024/04/10 03:00:52] Total 2950 files processed
+[INFO]-[2024/04/10 03:00:53] Total 3000 files processed
+[INFO]-[2024/04/10 03:00:54] Total 3050 files processed
+[INFO]-[2024/04/10 03:00:55] Total 3100 files processed
+[INFO]-[2024/04/10 03:00:55] Total 3150 files processed
+[INFO]-[2024/04/10 03:00:56] Total 3200 files processed
+[INFO]-[2024/04/10 03:00:57] Total 3250 files processed
+[INFO]-[2024/04/10 03:00:58] Total 3300 files processed
+[INFO]-[2024/04/10 03:00:58] Total 3350 files processed
+[INFO]-[2024/04/10 03:00:59] Total 3400 files processed
+[INFO]-[2024/04/10 03:01:00] Total 3450 files processed
+[INFO]-[2024/04/10 03:01:01] Total 3500 files processed
+[INFO]-[2024/04/10 03:01:02] Total 3550 files processed
+[INFO]-[2024/04/10 03:01:02] Total 3600 files processed
+[INFO]-[2024/04/10 03:01:03] Total 3650 files processed
+[INFO]-[2024/04/10 03:01:04] Total 3700 files processed
+[INFO]-[2024/04/10 03:01:05] Total 3750 files processed
+[INFO]-[2024/04/10 03:01:06] Total 3800 files processed
+[INFO]-[2024/04/10 03:01:07] Total 3850 files processed
+[INFO]-[2024/04/10 03:01:08] Total 3900 files processed
+[INFO]-[2024/04/10 03:01:09] Total 3950 files processed
+[INFO]-[2024/04/10 03:01:09] Total 4000 files processed
+[INFO]-[2024/04/10 03:01:10] Total 4050 files processed
+[INFO]-[2024/04/10 03:01:11] Total 4100 files processed
+[INFO]-[2024/04/10 03:01:12] Total 4150 files processed
+[INFO]-[2024/04/10 03:01:13] Total 4200 files processed
+[INFO]-[2024/04/10 03:01:14] Total 4250 files processed
+[INFO]-[2024/04/10 03:01:15] Total 4300 files processed
+[INFO]-[2024/04/10 03:01:15] Total 4350 files processed
+[INFO]-[2024/04/10 03:01:16] Total 4400 files processed
+[INFO]-[2024/04/10 03:01:17] Total 4450 files processed
+[INFO]-[2024/04/10 03:01:18] Total 4500 files processed
+[INFO]-[2024/04/10 03:01:19] Total 4550 files processed
+[INFO]-[2024/04/10 03:01:19] Total 4600 files processed
+[INFO]-[2024/04/10 03:01:20] Total 4650 files processed
+[INFO]-[2024/04/10 03:01:21] Total 4700 files processed
+[INFO]-[2024/04/10 03:01:22] Total 4750 files processed
+[INFO]-[2024/04/10 03:01:22] Total 4800 files processed
+[INFO]-[2024/04/10 03:01:23] Total 4850 files processed
+[INFO]-[2024/04/10 03:01:24] Total 4900 files processed
+[INFO]-[2024/04/10 03:01:25] Total 4950 files processed
+[INFO]-[2024/04/10 03:01:25] Total 5000 files processed
+[INFO]-[2024/04/10 03:01:26] Total 5050 files processed
+[INFO]-[2024/04/10 03:01:27] Total 5100 files processed
+[INFO]-[2024/04/10 03:01:27] Total 5150 files processed
+[INFO]-[2024/04/10 03:01:28] Total 5200 files processed
+[INFO]-[2024/04/10 03:01:29] Total 5250 files processed
+[INFO]-[2024/04/10 03:01:30] Total 5300 files processed
+[INFO]-[2024/04/10 03:01:30] Total 5350 files processed
+[INFO]-[2024/04/10 03:01:31] Total 5400 files processed
+[INFO]-[2024/04/10 03:01:32] Total 5450 files processed
+[INFO]-[2024/04/10 03:01:33] Total 5500 files processed
+[INFO]-[2024/04/10 03:01:33] Total 5550 files processed
+[INFO]-[2024/04/10 03:01:34] Total 5600 files processed
+[INFO]-[2024/04/10 03:01:35] Total 5650 files processed
+[INFO]-[2024/04/10 03:01:36] Total 5700 files processed
+[INFO]-[2024/04/10 03:01:36] Total 5750 files processed
+[INFO]-[2024/04/10 03:01:37] Total 5800 files processed
+[INFO]-[2024/04/10 03:01:38] Total 5850 files processed
+[INFO]-[2024/04/10 03:01:39] Total 5900 files processed
+[INFO]-[2024/04/10 03:01:40] Total 5950 files processed
+[INFO]-[2024/04/10 03:01:40] Total 6000 files processed
+[INFO]-[2024/04/10 03:01:41] Total 6050 files processed
+[INFO]-[2024/04/10 03:01:42] Total 6100 files processed
+[INFO]-[2024/04/10 03:01:43] Total 6150 files processed
+[INFO]-[2024/04/10 03:01:43] Total 6200 files processed
+[INFO]-[2024/04/10 03:01:44] Total 6250 files processed
+[INFO]-[2024/04/10 03:01:45] Total 6300 files processed
+[INFO]-[2024/04/10 03:01:46] Total 6350 files processed
+[INFO]-[2024/04/10 03:01:46] Total 6400 files processed
+[INFO]-[2024/04/10 03:01:47] Total 6450 files processed
+[INFO]-[2024/04/10 03:01:48] Total 6500 files processed
+[INFO]-[2024/04/10 03:01:49] Total 6550 files processed
+[INFO]-[2024/04/10 03:01:50] Total 6600 files processed
+[INFO]-[2024/04/10 03:01:50] Total 6650 files processed
+[INFO]-[2024/04/10 03:01:51] Total 6700 files processed
+[INFO]-[2024/04/10 03:01:52] Total 6750 files processed
+[INFO]-[2024/04/10 03:01:53] Total 6800 files processed
+[INFO]-[2024/04/10 03:01:53] Total 6850 files processed
+[INFO]-[2024/04/10 03:01:54] Total 6900 files processed
+[INFO]-[2024/04/10 03:01:55] Total 6950 files processed
+[INFO]-[2024/04/10 03:01:56] Total 7000 files processed
+[INFO]-[2024/04/10 03:01:56] Total 7050 files processed
+[INFO]-[2024/04/10 03:01:58] Total 7100 files processed
+[INFO]-[2024/04/10 03:01:59] Total 7150 files processed
+[INFO]-[2024/04/10 03:01:59] Total 7200 files processed
+[INFO]-[2024/04/10 03:02:00] Total 7250 files processed
+[INFO]-[2024/04/10 03:02:01] Total 7300 files processed
+[INFO]-[2024/04/10 03:02:03] Total 7350 files processed
+[INFO]-[2024/04/10 03:02:06] Total 7400 files processed
+[INFO]-[2024/04/10 03:02:09] Total 7450 files processed
+[INFO]-[2024/04/10 03:02:10] Skipping big file: /home/vol14_6/epizy.com/epiz_29797462/htdocs/wp-content/uploads/2021/09/overhead-view-businessman-looking-his-watch-holding-mobile-phone-hand.jpg
+[INFO]-[2024/04/10 03:02:11] Total 7500 files processed
+[INFO]-[2024/04/10 03:02:14] Total 7550 files processed
+[INFO]-[2024/04/10 03:02:14] Skipping big file: /home/vol14_6/epizy.com/epiz_29797462/htdocs/wp-content/ai1wm-backups/contasilvadigital.epizy.com-20211014-093552-nfvr5o.wpress
+[INFO]-[2024/04/10 03:02:14] Skipping big file: /home/vol14_6/epizy.com/epiz_29797462/htdocs/wp-content/ai1wm-backups/contasilvadigital.epizy.com-20211014-114145-x5pox0.wpress
+[INFO]-[2024/04/10 03:02:14] Skipping big file: /home/vol14_6/epizy.com/epiz_29797462/htdocs/wp-content/ai1wm-backups/contasilvadigital.epizy.com-20211214-163938-d0tv63.wpress
+[INFO]-[2024/04/10 03:02:14] Skipping big file: /home/vol14_6/epizy.com/epiz_29797462/htdocs/wp-content/ai1wm-backups/contasilvadigital-epizy-com-20240410-015528-n0xsgr.wpress
+[INFO]-[2024/04/10 03:02:14] Total 7600 files processed
+[INFO]-[2024/04/10 03:02:15] Total 7650 files processed
+[INFO]-[2024/04/10 03:02:16] Total 7700 files processed
+[INFO]-[2024/04/10 03:02:17] Total 7750 files processed
+[INFO]-[2024/04/10 03:02:17] Total 7800 files processed
+[INFO]-[2024/04/10 03:02:18] Total 7850 files processed
+[INFO]-[2024/04/10 03:02:19] Total 7900 files processed
+[INFO]-[2024/04/10 03:02:20] Total 7950 files processed
+[INFO]-[2024/04/10 03:02:20] Total 8000 files processed
+[INFO]-[2024/04/10 03:02:21] Total 8050 files processed
+[INFO]-[2024/04/10 03:02:22] Total 8100 files processed
+[INFO]-[2024/04/10 03:02:23] Total 8150 files processed
+[INFO]-[2024/04/10 03:02:23] Total 8200 files processed
+[INFO]-[2024/04/10 03:02:24] Total 8250 files processed
+[INFO]-[2024/04/10 03:02:25] Total 8300 files processed
+[INFO]-[2024/04/10 03:02:26] Total 8350 files processed
+[INFO]-[2024/04/10 03:02:26] Total 8400 files processed
+[INFO]-[2024/04/10 03:02:27] Total 8450 files processed
+[INFO]-[2024/04/10 03:02:28] Total 8500 files processed
+[INFO]-[2024/04/10 03:02:29] Total 8550 files processed
+[INFO]-[2024/04/10 03:02:29] Total 8600 files processed
+[INFO]-[2024/04/10 03:02:30] Total 8650 files processed
+[INFO]-[2024/04/10 03:02:31] Total 8700 files processed
+[INFO]-[2024/04/10 03:02:31] Total 8750 files processed
+[INFO]-[2024/04/10 03:02:32] Total 8800 files processed
+[INFO]-[2024/04/10 03:02:34] Total 8850 files processed
+[INFO]-[2024/04/10 03:02:37] Total 8900 files processed
+[INFO]-[2024/04/10 03:02:38] Total 8950 files processed
+[INFO]-[2024/04/10 03:02:39] Total 9000 files processed
+[INFO]-[2024/04/10 03:02:40] Total 9050 files processed
+[INFO]-[2024/04/10 03:02:41] Total 9100 files processed
+[INFO]-[2024/04/10 03:02:42] Total 9150 files processed
+[INFO]-[2024/04/10 03:02:42] Total 9200 files processed
+[INFO]-[2024/04/10 03:02:43] Total 9250 files processed
+[INFO]-[2024/04/10 03:02:44] Total 9300 files processed
+[INFO]-[2024/04/10 03:02:44] Total 9350 files processed
+[INFO]-[2024/04/10 03:02:45] Total 9400 files processed
+[INFO]-[2024/04/10 03:02:46] Total 9450 files processed
+[INFO]-[2024/04/10 03:02:47] Total 9500 files processed
+[INFO]-[2024/04/10 03:02:48] Total 9550 files processed
+[INFO]-[2024/04/10 03:02:48] Total 9600 files processed
+[INFO]-[2024/04/10 03:02:49] Total 9650 files processed
+[INFO]-[2024/04/10 03:02:50] Total 9700 files processed
+[INFO]-[2024/04/10 03:02:51] Total 9750 files processed
+[INFO]-[2024/04/10 03:02:51] Total 9800 files processed
+[INFO]-[2024/04/10 03:02:52] Total 9850 files processed
+[INFO]-[2024/04/10 03:02:53] Total 9900 files processed
+[INFO]-[2024/04/10 03:02:54] Total 9950 files processed
+[INFO]-[2024/04/10 03:02:54] Total 10000 files processed
+[INFO]-[2024/04/10 03:02:55] Total 10050 files processed
+[INFO]-[2024/04/10 03:02:56] Total 10100 files processed
+[INFO]-[2024/04/10 03:02:57] Total 10150 files processed
+[INFO]-[2024/04/10 03:02:57] Total 10200 files processed
+[INFO]-[2024/04/10 03:02:58] Total 10250 files processed
+[INFO]-[2024/04/10 03:02:59] Skipped symlinking WP Uploads Folder
+[INFO]-[2024/04/10 03:02:59] Copying files finished
+[INFO]-[2024/04/10 03:03:00] DB Data Step 0: Copy wp-config.php file
+[INFO]-[2024/04/10 03:03:00] DB Data Step 0: Skipping: wp-config.php already exists in /home/vol14_6/epizy.com/epiz_29797462/htdocs/contabilidade/wp-config.php
+[INFO]-[2024/04/10 03:03:01] DB Data Step 1: Updating siteurl and homeurl in wpstg0_options to http://contasilvadigital.epizy.com/contabilidade
+[INFO]-[2024/04/10 03:03:02] DB Data Step 3: Updating db prefix in wpstg0_usermeta.
+[INFO]-[2024/04/10 03:03:03] DB Data Step 4: Updating table_prefix in /home/vol14_6/epizy.com/epiz_29797462/htdocs/contabilidade/wp-config.php to wpstg0_
+[INFO]-[2024/04/10 03:03:03] DB Data Step 5: WP installation is not in a subdirectory! Skipping this step
+[INFO]-[2024/04/10 03:03:04] DB Data Step 6: Updating db prefix in wpstg0_options.
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Updating constants in wp-config.php
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Added constant:WP_LANG_DIR
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Added constant:WP_HOME
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Added constant:WP_SITEURL
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Updated: WP_CACHE
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Added constant:DISABLE_WP_CRON
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Added constant:WP_ENVIRONMENT_TYPE
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Added constant:WP_DEVELOPMENT_MODE
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Added constant:WPSTAGING_DEV_SITE
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Added constant:UPLOADS
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Added constant:WP_PLUGIN_DIR
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Added constant:WP_PLUGIN_URL
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Skipping: WP_ALLOW_MULTISITE not defined in wp-config.php.
+[INFO]-[2024/04/10 03:03:05] DB Data Step 7: Skipping: MULTISITE not defined in wp-config.php.
+[INFO]-[2024/04/10 03:03:07] Finish: Deleting clone job's cache files...
+[INFO]-[2024/04/10 03:03:07] Finish: Clone job's cache files have been deleted!
+[INFO]-[2024/04/10 03:03:07] Finish: Verifying existing clones...
+[INFO]-[2024/04/10 03:03:07] Finish: The job finished!
+[info]-[2024/04/10 03:03:07] ################## FINISH ##################
